@@ -18,6 +18,17 @@ SQL database as tables.
 5. Ability to search and retrieve data from the SQL database using different
 search options, including joining tables to get channel details.
 
+# Import or install(pip install name) following libraries
+* import streamlit as st
+* import pandas as pd
+* import numpy as np
+* from sqlalchemy import create_engine
+* import mysql.connector
+* from googleapiclient.discovery import build
+* import pymongo
+* import json
+* from PIL import Image
+
 # Approach:
 1. Set up a Streamlit app: Streamlit is a great choice for building data
 visualization and analysis tools quickly and easily. You can use Streamlit to
