@@ -56,5 +56,6 @@ in the Streamlit app. You can use Streamlit's data visualization features to
 create charts and graphs to help users analyze the data.
 
 # usge
-Download the repository using following command
-git clone 
+Download the repository using the following command
+
+git clone https://github.com/ImBharatkumar/Youtube-data-warehousing.git
