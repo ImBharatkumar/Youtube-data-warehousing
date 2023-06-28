@@ -9,7 +9,7 @@ Created  Streamlit application that allows users to store, access and analyze da
 The problem statement is to create a Streamlit application that allows users to access
 and analyze data from multiple YouTube channels. The application should have the
 
-## following features:
+## features:
 1. Ability to input a YouTube channel ID and retrieve all the relevant data
 (Channel name, subscribers, total video count, playlist ID, video ID, likes,
 dislikes, comments of each video) using Google API.
@@ -54,3 +54,7 @@ with the SQL database.
 6. Display data in the Streamlit app: Finally, you can display the retrieved data
 in the Streamlit app. You can use Streamlit's data visualization features to
 create charts and graphs to help users analyze the data.
+
+# usge
+Download the repository using following command
+git clone 
