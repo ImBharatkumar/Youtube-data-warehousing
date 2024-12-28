@@ -1,0 +1,9 @@
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+google-api-python-client
+oauth2client
+requests
+python-dotenv
+pymongo
