@@ -1,14 +1,7 @@
 import os
-import streamlit as st
-import pandas as pd
-import numpy as np
-from sqlalchemy import create_engine
-import mysql.connector
-import pymongo
-import json
-from PIL import Image
 from src.channel_data import get_channel_data
-from src.database import export_to_mongodb
+from src.utility import export_to_mongodb
+from srr.database import write_to_sql
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -25,11 +18,10 @@ else:
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/sushidolly/.config/gcloud/application_default_credentials.json"
 
-if __name__ == "__main__":
+if __name__=="__main__":
     get_channel_data("UCIsz3XD8_E1ebhE4YScWeJg", api_key)
     export_to_mongodb("data/channel_data.json")
-
-
+    write_to_sql()
 
 
 
